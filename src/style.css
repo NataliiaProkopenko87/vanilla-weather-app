@@ -1,6 +1,7 @@
 body {
   font-family: "Pacifico", cursive;
   font-family: "Quicksand", sans-serif;
+  color: #9656a1;
 }
 ul {
   margin: 0;
@@ -20,11 +21,35 @@ li:first-letter {
 }
 .weather-app {
   padding: 20px;
-  border: 1px solid #dc50c1;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
   border-radius: 10px;
+  background: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+}
+
+.btn {
+  background: #9656a1;
+  color: #ffffff;
+}
+.btn:hover {
+  background: #b79dbc;
+  border: 1px solid #b79dbc;
+  color: #ffffff;
 }
 .overview {
   margin-bottom: 20px;
+}
+.overview h1 {
+  font-size: 72px;
+  font-weight: 700;
+  background-image: linear-gradient(
+    57.4deg,
+    rgb(249, 206, 183) 4.6%,
+    rgb(234, 174, 202) 26%,
+    rgb(210, 182, 226) 49.1%,
+    rgb(173, 209, 242) 86.5%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .weather-temperature img {
   margin-right: 5px;
@@ -33,9 +58,9 @@ li:first-letter {
   width: 64px;
 }
 .weather-temperature strong {
-  color: #b739f2;
-  font-size: 64px;
-  font-weight: 400;
+  color: #9656a1;
+  font-size: 74px;
+  font-weight: 600;
   line-height: 1;
 }
 .weather-temperature .units {
@@ -47,7 +72,7 @@ li:first-letter {
   text-decoration: none;
 }
 .weather-temperature .active {
-  color: #b739f2;
+  color: #9656a1;
   cursor: default;
 }
 .weather-temperature .active:hover {
