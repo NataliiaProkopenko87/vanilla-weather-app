@@ -50,6 +50,7 @@ li:first-letter {
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  text-align: center;
 }
 .weather-temperature img {
   margin-right: 5px;
@@ -79,12 +80,24 @@ li:first-letter {
   text-decoration: none;
 }
 .weather-forecast {
+  padding: 10px;
   margin-top: 20px;
   text-align: center;
+  border-radius: 10px;
+  background: #ffffff;
 }
 .weather-forecast-date {
-  font-size: 16px;
+  font-size: 26px;
   font-weight: 600;
+  background-image: linear-gradient(
+    57.4deg,
+    rgb(249, 206, 183) 4.6%,
+    rgb(234, 174, 202) 26%,
+    rgb(210, 182, 226) 49.1%,
+    rgb(173, 209, 242) 86.5%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .weather-forecasr-temperatures {
   font-size: 13px;
